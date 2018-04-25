@@ -12,15 +12,15 @@ _A web app that let convert integer number, which represent a change, into the s
 
 * _The program converts number into right amount of quarters if the number divisible by 25._
   * _Example Input: 50_
-  * _Example Output: ["2 quarters"]_
+  * _Example Output: ["2 quarters, 0 dimes, 0 nickels, 0 pennies."]_
 
 * _The program converts number into right amount of quarters and dimes if the remainder of number devision by 25 divisible by 10._
   * _Example Input: 60_
-  * _Example Output: ["2 quarters, 1 dime"]_
+  * _Example Output: ["2 quarters, 1 dime,  0 nickels, 0 pennies."]_
 
 * _The program converts number into right amount of quarters, dimes and nickels if the remainder of number devision by 25 divisible by 10 with a remainder which is divisible by 5._
   * _Example Input: 65_
-  * _Example Output: ["2 quarters, 1 dime, 1 nickel"]_
+  * _Example Output: ["2 quarters, 1 dime, 1 nickel, 0 pennies."]_
 
 * _The program converts number into right amount of quarters, dimes, nickels and pennies if the remainder of number devision by 25 divisible by 10 with a remainder which is divisible by 5 with a remainder which is equal to the amount of pennies._
   * _Example Input: 68_
