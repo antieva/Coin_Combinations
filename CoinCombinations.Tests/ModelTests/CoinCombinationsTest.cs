@@ -11,21 +11,21 @@ namespace CoinCombinationsApp.Tests
       [TestMethod]
       public void CoinsCombinator_50_quarters2()
       {
-          Dictionary<string, int> testOutput = new Dictionary<string, int>() {{"quarters", 2}};
+          Dictionary<string, int> testOutput = new Dictionary<string, int>() {{"quarters", 2}, {"dimes", 0}, {"nickels", 0}, {"pennies", 0}};
           CollectionAssert.AreEqual(testOutput, CoinCombinations.CoinsCombinator(50));
       }
 
       [TestMethod]
       public void CoinsCombinator_60_quarters2dimes1()
       {
-          Dictionary<string, int> testOutput = new Dictionary<string, int>() {{"quarters", 2}, {"dimes", 1}};
+          Dictionary<string, int> testOutput = new Dictionary<string, int>() {{"quarters", 2}, {"dimes", 1}, {"nickels", 0}, {"pennies", 0}};
           CollectionAssert.AreEqual(testOutput, CoinCombinations.CoinsCombinator(60));
       }
 
       [TestMethod]
       public void CoinsCombinator_65_quarters2dimes1nickels1()
       {
-          Dictionary<string, int> testOutput = new Dictionary<string, int>() {{"quarters", 2}, {"dimes", 1}, {"nickels", 1}};
+          Dictionary<string, int> testOutput = new Dictionary<string, int>() {{"quarters", 2}, {"dimes", 1}, {"nickels", 1}, {"pennies", 0}};
           CollectionAssert.AreEqual(testOutput, CoinCombinations.CoinsCombinator(65));
       }
 
